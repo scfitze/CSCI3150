@@ -21,7 +21,7 @@ body {
   }
 
   h1, strong {
-    color: purple;
+    color: blue; /* Change the text color to blue */
   }
 
   p, em {
@@ -33,13 +33,13 @@ body {
   }
 
   ul {
-    border: 2px solid orange;
+    border: 2px dotted orange; /* Change border to dotted */
   }
 
   ol, ul {
-    padding: 5px 20px;
+    padding: 10px 20px; /* Increase the top and bottom padding to 10px */
     border-radius: 4px;
-  } 
+  }
    
   * {
     box-sizing: border-box;
