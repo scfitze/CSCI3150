@@ -142,6 +142,11 @@ footer {
   margin-top: 10px;
 }
 
+footer p {
+    font-size: 12px;
+    text-align: center;
+  }
+
 /* HK additions */
 
 main {
