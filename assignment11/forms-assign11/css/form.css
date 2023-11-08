@@ -5,8 +5,9 @@
 
 
 #wrapper {
-	width: 60%;
+	width: 80%;
 	margin-left:4%;
+    margin: 0 auto;
 }
 
 div#formcol1 {
@@ -21,16 +22,18 @@ o  ptimal width */
     display: inline-block; /* width will not work for “inline” elements such as
 “label”. Therefore we need to set it to “inline-block” */
     text-align: right;
+    font-weight: bold;
 }    
 
 #formcol1 li {
     list-style:none;
 }
 
-#multchoice label{
-    width: 3em;
-    text-align: left;
-  }
+/* Radio Button Styles */
+#multchoice label {
+    width: auto; /*Reset the width to auto for radio button labels */
+    text-align: left; /* Align radio button labels to the left */
+}
 
 select:focus, select:active, input:focus, input:active, input:focus + label,
 input:active + label, label[for]:focus, label[for]:active {
@@ -42,4 +45,76 @@ background-color: #BB3D2F !important;
     background:#FF9;
 }
 /* end of form css */
-	
+
+#formcol1 label {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#formcol1 input[type="text"] {
+    margin-bottom: 10px;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Form Styles */
+form {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+
+/* Input Styles */
+input[type="text"] {
+    width: 30%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+/* Additional Styles */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+#multchoice legend {
+    text-align: left; 
+    margin-bottom: 10px; 
+}
+
+#multchoice p {
+    width: 79%;
+    text-align: center;
+}
